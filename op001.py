@@ -4,5 +4,5 @@ class Dzivnieks:
         self.kajas = kajas
         self.skanja = skanja
 
-p1 = Dzivnieks("Kakis", 4, "meow")
+p1 = Dzivnieks("Kakis", 4, "mjau")
 print(p1.name, p1.kajas)
