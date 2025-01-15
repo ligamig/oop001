@@ -5,5 +5,5 @@ class Dzivnieks:
     def skanja(self):
         print("random animal noise")
 
-d1 = Dzivnieks("Kakis", 4, "mjau")
-print(d1.name, d1.kajas)
+d1 = Dzivnieks("Gauja", 4)
+d1.skanja()
