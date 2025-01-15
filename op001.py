@@ -2,7 +2,8 @@ class Dzivnieks:
     def __init__(self, name, kajas, skanja):
         self.name = name
         self.kajas = kajas
-        self.skanja = skanja
+    def skanja(self):
+        print("random animal noise")
 
-p1 = Dzivnieks("Kakis", 4, "mjau")
-print(p1.name, p1.kajas)
+d1 = Dzivnieks("Kakis", 4, "mjau")
+print(d1.name, d1.kajas)
