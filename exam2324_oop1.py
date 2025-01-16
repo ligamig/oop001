@@ -17,7 +17,7 @@ class Doktorats:
         addition=""
         if (self.pacients%10 !=1):
             addition="s"
-        print(f"Dokotrāts {self.nosaukums} apkalpo {self.pacients} pacientus")
+        print(f"Dokotrāts {self.nosaukums} apkalpo {self.pacients} pacientu{addition}")
 
 d1 = Doktorats("Zemlejas", 300)
 d1.ievade()
@@ -27,5 +27,3 @@ d2 = Doktorats()
 d2.ievade()
 d2.izvade()
 d2.izvade()
-
-#2. uzdevums
