@@ -1,6 +1,6 @@
 from abc import ABC,abstractmethod
 
-class Dzivnieks:
+class Dzivnieks(ABC):
     def __init__(self, name, kajas):
         self.name = name
         self.kajas = kajas
@@ -38,7 +38,8 @@ dzivniekuSaraksts.append(Suns("Volvis", 4))
 dzivniekuSaraksts.append(Suns("Jimmys", 4))
 dzivniekuSaraksts.append(Kakis("Muris", 4))
 dzivniekuSaraksts.append(Kakis("Juris", 5))
-dzivniekuSaraksts.append(Govs("Gauja", 4))
+dzivniekuSaraksts.append(Govs("Gauja", 4))  #nevar likt Dzivnieks(), jo, ja ir import tas abstract, tad 
+                                                #Can't instantiate abstract class Dzivnieks with abstract method skanja
 
 print("####################")
 for dzivnieks in dzivniekuSaraksts:
